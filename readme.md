@@ -17,6 +17,11 @@ pip install -r requirements.txt
 
 Uso
 Para usar el API, siga estos pasos:
+
+Ejecutar las migraciones:
+python manage.py makemigrations
+python manage.py migrate
+
 Inicialize el servidor:
 python manage.py runserver
 
