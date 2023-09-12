@@ -10,7 +10,7 @@ Instalación
 
 Para instalar el API, siga estos pasos:
 Clonar el repositorio:
-git clone https://github.com/bard/api-chistes.git
+git clone https://github.com/cristian1903/chistes.git
 
 Instalar las dependencias:
 pip install -r requirements.txt
