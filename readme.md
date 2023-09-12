@@ -6,7 +6,7 @@ Endpoint de creación de chistes: Este endpoint permite guardar un chiste en la 
 Endpoint de actualización de chistes: Este endpoint permite actualizar un chiste existente en la base de datos.
 Endpoint de eliminación de chistes: Este endpoint permite eliminar un chiste de la base de datos.
 
-Instalación
+##Instalación
 
 Para instalar el API, siga estos pasos:
 Clonar el repositorio:
@@ -18,13 +18,14 @@ pip install -r requirements.txt
 Uso
 Para usar el API, siga estos pasos:
 
-Ejecutar las migraciones:
+#Ejecutar las migraciones:
 
 python manage.py makemigrations
 
 python manage.py migrate
 
 Inicialize el servidor:
+
 python manage.py runserver
 
 Envíe una solicitud al endpoint de chistes:
