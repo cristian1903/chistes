@@ -4,6 +4,6 @@ from .views import ChisteViwset
 
 router = DefaultRouter()
 
-router.register(r'chiste', ChisteViwset, basename='chiste')
+router.register(r'chistes', ChisteViwset, basename='chistes')
 
 urlpatterns = router.urls

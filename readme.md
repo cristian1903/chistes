@@ -21,20 +21,20 @@ Clonar el repositorio:
 __git clone https://github.com/cristian1903/chistes.git__
 
 Instalar las dependencias:
-
+```
 pip install -r requirements.txt
-
+```
 Uso
 Para usar el API, siga estos pasos:
 
 #Ejecutar las migraciones:
-
-*python manage.py migrate*
-
+```
+python manage.py migrate
+```
 Inicialize el servidor:
-
-*python manage.py runserver*
-
+```
+python manage.py runserver*
+```
 Envíe una solicitud al endpoint de chistes:
 ```
 curl -X GET http://localhost:8000/chistes
